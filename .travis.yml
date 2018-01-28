@@ -6,11 +6,11 @@ python:
       - "3.5"
 
 install:
-      - pip install -r requirements.txt
+      - pip install -r task/requirements.txt
 
 
 script: 
 
-      - py.test test1.py
-      - py.test test2.py
-      - py.test test3.py
+      - py.test task/test1.py
+      - py.test task/test2.py
+      - py.test task/test3.py
