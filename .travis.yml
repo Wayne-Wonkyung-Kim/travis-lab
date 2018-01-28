@@ -13,4 +13,4 @@ install:
 
 script: 
 
-      - py.test hello2.py
+      - py.test hello3.py
