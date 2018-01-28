@@ -1,3 +1,4 @@
+import io
 
 def getCharNum( filename ):
     input = io.open( filename, "r" )
