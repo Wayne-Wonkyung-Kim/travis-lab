@@ -6,6 +6,7 @@ python:
       - "3.5"
 
 install:
+      - pip -U pip
       - pip install -r requirements.txt
 
 
