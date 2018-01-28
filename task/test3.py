@@ -14,7 +14,7 @@ def getCharNum( filename ):
 
 
 def test_getCharNum():
-    assert getCharNum( "input.txt" ) == 6
+    assert getCharNum( "task/input.txt" ) == 6
 
 
 
