@@ -1,7 +1,6 @@
 
-
 def getCharNum( filename ):
-    input = open( filename, "r" )
+    input = io.open( filename, "r" )
     count = 0
 
     x = input.readline()
